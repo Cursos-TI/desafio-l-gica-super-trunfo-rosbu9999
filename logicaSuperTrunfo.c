@@ -84,51 +84,51 @@ int main() {
 
     if (populacao1 > populacao2)
     {
-        printf("carta 1 ganhou");
+        printf("carta 1 ganhou (%u)\n", populacao1);
     }
     else
     {
-        printf("carta 2 ganhou");
+        printf("carta 2 ganhou (%u)\n", populacao2);
     }
     if (area1 > area2)
     {
-        printf("carta 1 ganhou");
+        printf("carta 1 ganhou (%.2f)\n", area1);
     }
     else
     {
-        printf("carta 2 ganhou");
+        printf("carta 2 ganhou (%.2f)\n", area2);
     }
     if (pib1 > pib2)
     {
-        printf("carta 1 ganhou");
+        printf("carta 1 ganhou (%.2f)\n", pib1);
     }
     else{
-        printf("carta 2 ganhou");
+        printf("carta 2 ganhou (%,2f)\n", pib2);
     }
 if (pontosturisticos1 > pontosturisticos2)
 {
-    printf("carta 1 ganhou");
+    printf("carta 1 ganhou (%d)\n", pontosturisticos1);
 
 }
 else
 {
-    printf("carta 2 ganhou");
+    printf("carta 2 ganhou (%d)\n", pontosturisticos2);
 }
 if (pib3 > pib4)
 {
-    printf("carta 1 ganhou");
+    printf("carta 1 ganhou (%.2f)\n", pib3);
 }
 else
 {
-printf("carta 2 ganhou");
+printf("carta 2 ganhou (%.2f)\n", pib4);
 }
 if (densidade1 < densidade2)
 {
-    printf("carta 1 ganhou");
+    printf("carta 1 ganhou (%.2f)\n", densidade1);
 }
 else
 {
-    printf("carta 2 ganhou");
+    printf("carta 2 ganhou (%.2f)\n", densidade2);
 }
     return 0;
 }
