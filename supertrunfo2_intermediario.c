@@ -140,7 +140,7 @@ switch (opcao){
        printf("Codigo: %s \n", codigo2);
         printf("Cidade: %s \n", cidade2);
        printf("Pib: %.2f \n", pib2);
-       }if (pib1 > pib2)
+       if (pib1 > pib2)
        {
         printf("carta 1 ganhou");
        }else if (pib1 < pib2){
@@ -391,8 +391,10 @@ switch (opcao){
        printf("empate");
        }
        break;
-        default: printf("invalido"); }
+        default: printf("invalido"); 
         break;}
+
+      break;
       
          
          
